@@ -1,0 +1,16 @@
+<!-- templates/terminal.html -->
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="terminal">
+    <div class="terminal-header">Terminal</div>
+    <div class="terminal-body" id="terminal-body">
+        <p>Welcome to the Terminal!</p>
+    </div>
+    <div class="terminal-input">
+        <span class="prompt">$</span>
+        <input id="command-input" type="text" autofocus>
+    </div>
+</div>
+{% endblock %}
+

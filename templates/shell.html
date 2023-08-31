@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div id="shell-container">
+    <iframe id="terminal-frame" src="{{ url_for('static', filename='mini_shell.html') }}"></iframe>
+</div>
+{% endblock %}
+

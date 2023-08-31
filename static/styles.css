@@ -1,0 +1,56 @@
+/* static/styles.css */
+body {
+    margin: 0;
+    background-color: black; /* Altera o plano de fundo para preto */ 
+    padding: 0;
+    font-family: monospace;
+}
+
+.terminal {
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    position: relative; /* Adiciona posição relativa */
+}
+
+.terminal-header {
+    background-color: #555;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.terminal-body {
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.terminal-input {
+    background-color: black; /* Altera a cor de fundo para preto */
+    position: absolute; /* Adiciona posição absoluta */
+    bottom: 0; /* Fixa no rodapé */
+    width: 100%; /* Preenche a largura total */
+    padding: 10px;
+    display: flex;
+}
+
+.prompt {
+    color: #5af78e;
+    margin-right: 5px;
+}
+
+#command-input {
+    flex: 1;
+    background-color: #333;
+    color: #5af78e; /* Altera a cor da fonte para verde */
+    border: none;
+
+A
+A
+    outline: none;
+    flex: 1;
+}
+
